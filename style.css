@@ -1,1 +1,17 @@
-/* font-family: 'Titillium Web', sans-serif;*/
+body {
+    font-family: 'Titillium Web', sans-serif;  
+}
+
+#header {
+    text-align: center;
+    padding:30px;
+    font-size:1.8em;
+    font-weight:300;
+}
+
+#locationline {
+    text-align: center;
+    padding:10px;
+    font-size:1.3em;
+    font-weight:200;
+}
