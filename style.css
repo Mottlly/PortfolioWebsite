@@ -74,6 +74,13 @@ body {
 
 .navbarel {
     padding: 30px;
+    color: black;
+}
+
+.navbarlink {
+    color:black;
+    font-size:larger;
+    font-weight: bolder;
 }
 
 .titleline {
