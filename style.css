@@ -54,11 +54,6 @@ body {
 
 }
 
-#abouttitle {
-    font-weight: bolder;
-    font-size: larger;
-}
-
 #currentactscontainer {
     display: flex;
     flex-direction: row;
