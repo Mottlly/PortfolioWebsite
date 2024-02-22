@@ -61,6 +61,13 @@ body {
     border-bottom: solid;
 }
 
+#ProjectContainer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: solid;
+}
+
 .sigils {
     width: 80%;
     margin-left: 20%;
