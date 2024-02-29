@@ -1,3 +1,3 @@
-function showDiv() {
-  document.getElementById("welcomeDiv").style.display = "block";
+function showDiv(divname) {
+  document.getElementById(divname).style.display = "block";
 }
