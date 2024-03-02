@@ -91,6 +91,12 @@ body {
     justify-content: space-between;
 }
 
+.indextitleline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .activitydiv {
     width:30%;
     padding:1%;
@@ -103,8 +109,11 @@ body {
     .activitydiv {
         width:90%;
     }
-    .titleline {
+    .indextitleline {
         align-items: flex-end;
+    }
+    .sigils {
+        width: 12vw;
     }
   }
 
