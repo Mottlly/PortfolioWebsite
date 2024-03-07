@@ -102,6 +102,13 @@ body {
     padding:1%;
 }
 
+.aboutimage {
+    width:350; 
+    height:400; 
+    max-width:30vw; 
+    max-height:30vh;
+}
+
 @media only screen and (max-width: 1500px) {
     .mainContainer {
       flex-direction: column;
@@ -115,6 +122,7 @@ body {
     .sigils {
         width: 12vw;
     }
+    
   }
 
 .mainlist{
