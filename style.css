@@ -4,6 +4,11 @@ body {
     margin:auto;  
 }
 
+.darkmode {
+    background-color:black;
+    color:white;
+}
+
 #header {
     display:flex;
     flex-direction: column;
