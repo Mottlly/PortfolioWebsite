@@ -1,7 +1,9 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     width:85%;
-    margin:auto;  
+    margin:auto; 
+    background-color: white; 
+    color:black;
 }
 
 .darkmode {

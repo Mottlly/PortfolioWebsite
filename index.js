@@ -9,3 +9,8 @@ function showDiv(divname) {
     document.getElementById(divname).style.display = "block";
   }
 }
+
+function darkmodeon() {
+  let body = document.body;
+  body.classList.toggle("darkmode");
+}
