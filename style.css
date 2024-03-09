@@ -7,8 +7,8 @@ body {
 }
 
 .darkmode {
-    background-color:black;
-    color:white;
+    background-color:rgb(17, 17, 17);
+    color:rgb(219, 219, 219);
 }
 
 #header {
