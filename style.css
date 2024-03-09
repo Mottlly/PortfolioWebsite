@@ -11,6 +11,11 @@ body {
     color:rgb(219, 219, 219);
 }
 
+.navbarlinkdark {
+    font-size:larger;
+    font-weight: bolder;
+}
+
 #header {
     display:flex;
     flex-direction: column;
@@ -87,7 +92,6 @@ body {
 }
 
 .navbarlink {
-    color:black;
     font-size:larger;
     font-weight: bolder;
 }
