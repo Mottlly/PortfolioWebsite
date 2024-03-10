@@ -14,3 +14,10 @@ function darkmodeon() {
   let body = document.body;
   body.classList.toggle("darkmode");
 }
+
+function navbardark() {
+  let steven = document.getElementsByClassName("navbarlink");
+  console.log(steven);
+  for (let i = 0; i < steven.length; i++)
+    steven[i].classList.toggle("navbarlinkdark");
+}
