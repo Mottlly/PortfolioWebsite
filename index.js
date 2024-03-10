@@ -13,6 +13,8 @@ function showDiv(divname) {
 function darkmodeon() {
   let body = document.body;
   body.classList.toggle("darkmode");
+  document.getElementById("darkbutt").innerHTML =
+    "<img src='Assets/light.png' class='socialsimg'>";
 }
 
 function navbardark() {
