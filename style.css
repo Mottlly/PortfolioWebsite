@@ -158,3 +158,12 @@ margin-top:10px;
 width:100%;
 max-height:400px;
 }
+
+.darkbutton {
+    cursor: pointer;
+    background-color: white;
+    padding-inline: 6px;
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+}
