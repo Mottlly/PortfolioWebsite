@@ -11,12 +11,6 @@ body {
     color:rgb(219, 219, 219);
 }
 
-.navbarlinkdark {
-    color:rgb(219, 219, 219);
-    font-size:larger;
-    font-weight: bolder;
-}
-
 #header {
     display:flex;
     flex-direction: column;
@@ -90,6 +84,18 @@ body {
 .navbarel {
     padding: 30px;
     color: black;
+}
+
+.navbarlink {
+color:black;
+font-size: larger;
+font-weight: bolder;
+}
+
+.navbarlinkdark {
+    color:rgb(219, 219, 219);
+    font-size:larger;
+    font-weight: bolder;
 }
 
 .titleline {
