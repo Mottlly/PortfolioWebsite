@@ -13,12 +13,14 @@ function showDiv(divname) {
 function darkmodeon() {
   let body = document.body;
   body.classList.toggle("darkmode");
-  if (
-    (document.getElementById("darkbutt").innerHTML =
-      "<img src='Assets/darkmode.webp' class='socialsimg'>")
-  ) {
+  console.log(body.classList.length);
+  if (body.classList.length === 0) {
     document.getElementById("darkbutt").innerHTML =
-      "<img src='Assets/light.png' class='socialsimg'>";
+      "<img src='Assets/darkmode.webp' class='socialsimg'></img>";
+  }
+  if (body.classList.length === 1) {
+    document.getElementById("darkbutt").innerHTML =
+      "<img src='Assets/light.png' class='socialsimg'></img>";
   }
 }
 
