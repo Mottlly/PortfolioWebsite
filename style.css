@@ -167,3 +167,12 @@ max-height:400px;
     border-style: none;
     border-image: none;
 }
+
+.darkdarkbutton {
+    cursor: pointer;
+    background-color: rgb(17, 17, 17) ;
+    padding-inline: 6px;
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+}

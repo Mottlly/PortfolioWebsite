@@ -13,6 +13,7 @@ function showDiv(divname) {
 function darkmodeon() {
   let body = document.body;
   body.classList.toggle("darkmode");
+  document.getElementById("darkbutt").classList.toggle("darkdarkbutton");
   console.log(body.classList.length);
   if (body.classList.length === 0) {
     document.getElementById("darkbutt").innerHTML =
