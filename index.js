@@ -13,8 +13,10 @@ function showDiv(divname) {
 function darkmodeon() {
   let body = document.body;
   body.classList.toggle("darkmode");
+  localStorage.setItem("Darkmodetrack", body.classList.length);
   document.getElementById("darkbutt").classList.toggle("darkdarkbutton");
   console.log(body.classList.length);
+
   if (body.classList.length === 0) {
     document.getElementById("darkbutt").innerHTML =
       "<img src='Assets/darkmode.webp' class='socialsimg'></img>";
@@ -31,3 +33,21 @@ function navbardark() {
   for (let i = 0; i < steven.length; i++)
     steven[i].classList.toggle("navbarlinkdark");
 }
+
+function onLoad() {
+  let steven = JSON.parse(window.localStorage.getItem("Darkmodetrack"));
+  if (steven === 0 || steven === null) {
+    document.getElementById("darkbutt").innerHTML =
+      "<img src='Assets/darkmode.webp' class='socialsimg'></img>";
+  }
+  if (steven === 1) {
+    darkmodeon();
+    navbardark();
+    document.getElementById("darkbutt").innerHTML =
+      "<img src='Assets/light.png' class='socialsimg'></img>";
+  }
+}
+
+window.onload = () => {
+  onLoad();
+};
