@@ -1,4 +1,4 @@
-# Centered textIn a desperate and vainglorious attempt to prevent my gmail from looking like :point_down:
+# In a desperate and vainglorious attempt to prevent my gmail from looking like :point_down:
 
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/19b4ef1d-2035-4e6f-8484-8bd79d604dc9" width="500">
 
