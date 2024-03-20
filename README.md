@@ -4,6 +4,4 @@
   <h1> I am making this wonderful biography and portfolio page </h1>
 </div>
 
-<div>
-<p> This page is prepared with simple HTML and CSS, with a light drizzling of pure vanilla Javascript to enhance the flavour:ok_hand:. To be enjoyed with a chilled riesling :wine_glass: and a side of an entry-level software position.:information_desk_person:</p>
-</div>
+This page is prepared with simple HTML and CSS, with a light drizzling of pure vanilla Javascript to enhance the flavour:ok_hand:. To be enjoyed with a chilled riesling :wine_glass: and a side of an entry-level software position.:information_desk_person:
